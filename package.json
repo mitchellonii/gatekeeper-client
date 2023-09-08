@@ -1,0 +1,25 @@
+{
+  "name": "websocket-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node client.js",
+    "compile": "pkg client.js --targets node20-linux-aarch64,node18-linux-x64,node18-macos-x64,node18-win-x64 --output bin/gatekeeper"
+  },
+  "dependencies": {
+    "net": "1.0.2",
+    "websocket-stream": "5.5.2",
+    "uuid": "9.0.0",
+    "chalk": "4.1.2",
+    "ws": "8.13.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "pkg": "5.8.1"
+  },
+  "author": "",
+  "type": "commonjs",
+  "license": "ISC"
+}
